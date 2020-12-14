@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPCDemo", "gRPCDemo.csproj", "{A95B1521-2060-458D-8ABF-12517AC094E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grpcServer", "..\grpcServer\grpcServer.csproj", "{C23C0E41-FD83-4541-8A9D-3FBA07F6D8A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grpcClient", "..\grpcClient\grpcClient.csproj", "{0D77E682-3C67-4380-9472-CB7ED5D2D712}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A95B1521-2060-458D-8ABF-12517AC094E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95B1521-2060-458D-8ABF-12517AC094E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95B1521-2060-458D-8ABF-12517AC094E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95B1521-2060-458D-8ABF-12517AC094E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23C0E41-FD83-4541-8A9D-3FBA07F6D8A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23C0E41-FD83-4541-8A9D-3FBA07F6D8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23C0E41-FD83-4541-8A9D-3FBA07F6D8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23C0E41-FD83-4541-8A9D-3FBA07F6D8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D77E682-3C67-4380-9472-CB7ED5D2D712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D77E682-3C67-4380-9472-CB7ED5D2D712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D77E682-3C67-4380-9472-CB7ED5D2D712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D77E682-3C67-4380-9472-CB7ED5D2D712}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C443B5EA-A1D0-45A1-93AA-4FDB576A88B2}
+	EndGlobalSection
+EndGlobal
